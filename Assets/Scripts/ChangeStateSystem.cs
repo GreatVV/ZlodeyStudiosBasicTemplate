@@ -6,7 +6,7 @@ namespace Zlodey
 {
     class ChangeStateSystem : IEcsRunSystem
     {
-        private UI.UI _ui;
+        private UI _ui;
         private EcsFilter<ChangeStateEvent> _filter;
 
         private StaticData _staticData;

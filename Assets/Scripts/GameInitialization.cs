@@ -10,14 +10,14 @@ namespace Zlodey
             InitializeUi();
         }
 
-        public static UI.UI InitializeUi()
+        public static UI InitializeUi()
         {
             var configuration = Service<StaticData>.Get();
-            var ui = Service<UI.UI>.Get();
+            var ui = Service<UI>.Get();
             if (ui == null)
             {
                 ui = Object.Instantiate(configuration.UI);
-                Service<UI.UI>.Set(ui);
+                Service<UI>.Set(ui);
             }
 
             return ui;

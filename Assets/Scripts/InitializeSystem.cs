@@ -4,7 +4,7 @@ namespace Zlodey
 {
     class InitializeSystem : IEcsInitSystem
     {
-        private UI.UI _ui;
+        private UI _ui;
         private EcsWorld _world;
         private RuntimeData _runtimeData;
 

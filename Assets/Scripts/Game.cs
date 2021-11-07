@@ -45,7 +45,7 @@ namespace Zlodey
                 .Inject(SceneData)
                 .Inject(RuntimeData)
                 .Inject(StaticData)
-                .Inject(Service<UI.UI>.Get())
+                .Inject(Service<UI>.Get())
 
                 .Init();
             yield return null;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine.UI;
 
-namespace Zlodey.UI
+namespace Zlodey
 {
     public class WinScreen : Screen
     {

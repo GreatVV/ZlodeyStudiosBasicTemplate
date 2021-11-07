@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Zlodey.UI
+namespace Zlodey
 {
     public class Screen : MonoBehaviour
     {

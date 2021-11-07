@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Zlodey.UI
+namespace Zlodey
 {
     public class UI : MonoBehaviour
     {

@@ -9,7 +9,7 @@ namespace Zlodey
         public Levels Levels;
         
         [Header("Required prefabs")]        
-        public UI.UI UI;
+        public UI UI;
 
         [Header("Gameplay variable")] public float TimeToWinLevel = 1; //для примера - время в секундах после которого уровень выигрывается
     }

@@ -1,8 +1,8 @@
 ﻿using TMPro;
 
-namespace Zlodey.UI
+namespace Zlodey
 {
-    public class GameScreen : Screen
+    public class MenuScreen : Screen
     {
         public TextMeshProUGUI Level;
     }
